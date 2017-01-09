@@ -8,3 +8,4 @@ RUN curl -L https://github.com/spf13/hugo/releases/download/v0.17/hugo_0.17_Linu
   rm -rf hugo_0.17_linux_amd64
 
 CMD hugo
+EXPOSE 8887
